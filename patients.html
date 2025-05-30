@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Patient Services</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Patient Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="patients.html">Patients</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Patient Registration</h2>
+      <form id="patientForm">
+        <input type="text" placeholder="Full Name" required/>
+        <input type="number" placeholder="Age" required/>
+        <input type="text" placeholder="Issue" required/>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Sample Patients</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/patient1.jpg" alt="Patient 1"/>
+          <h3>Ravi Kumar</h3>
+          <p>High Fever</p>
+        </div>
+        <div class="card">
+          <img src="images/patient2.jpg" alt="Patient 2"/>
+          <h3>Anita Sharma</h3>
+          <p>Back Pain</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CityCare Hospital</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
